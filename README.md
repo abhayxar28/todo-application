@@ -70,7 +70,7 @@ A simple TODO application with both frontend and backend components. Users can m
   ```
 4.**Create a config.js file and add your JWT_SECRET:**
   ```bash
-  JWT_SECRET = ''
+  JWT_SECRET = 'your_jwt_secret'
   ```
 5.**Start the server:**
   ```bash
