@@ -66,7 +66,7 @@ A simple TODO application with both frontend and backend components. Users can m
    ```
 3.**Create a .env file and add your environment variables:**
   ```bash
-  PORT=5000
+  PORT=3000
   ```
 4.**Create a config.js file and add your JWT_SECRET:**
   ```bash
