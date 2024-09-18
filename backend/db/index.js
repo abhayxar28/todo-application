@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/todos');
+const {DatabaseURL} = require('../config');
+
+mongoose.connect(DatabaseURL);
 
 const userSchema = new mongoose.Schema({
     username: {
